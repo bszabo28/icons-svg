@@ -1,9 +1,14 @@
 @charset "utf-8";
 
 .icons {
+	text-align: center;
 	cursor: pointer;
 	&:not(:last-child) {
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
+	}
+
+	&__heading--1 {
+		margin-bottom: 2rem;
 	}
 
 	&__icon {
@@ -25,12 +30,9 @@
 
 		&:nth-child(#{$i}) {
 
-			span {
-				&:first-child::before {
-					content: '#{$size*10}px';
-					margin-right: 2rem;
-					font-size: $size * 1rem;
-				}
+			.icons__heading--1::before {
+				content: '#{$size*10}px';
+				font-size: $size * 1rem;
 			}
 
 			.icons__icon {

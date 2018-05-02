@@ -1,13 +1,17 @@
 @charset "utf-8";
 
 .github {
-	padding: 4rem;
+	text-align: center;
 	transition: all .5s;
+	padding: 4rem 0;
 
-	&:visited, &:link {
-		color: black;
-		font-size: 3rem;
-		text-decoration: none;
+	&__link {
+
+		&:visited, &:link {
+			color: black;
+			font-size: 3rem;
+			text-decoration: none;
+		}
 	}
 
 	svg {
@@ -21,6 +25,10 @@
 		color: white;
 		svg {
 			fill: white;
+		}
+
+		a {
+			color: white;
 		}
 	}
 
