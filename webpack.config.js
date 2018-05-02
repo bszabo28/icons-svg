@@ -9,7 +9,7 @@ const config = {
 	entry: ['babel-polyfill', './src/ts/scripts/script.ts'],
 	output: {
 		filename: 'js/app.js',
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'docs'),
 	},
 	resolve: {
 		extensions: ['.ts', '.js', '.scss'],
@@ -63,7 +63,7 @@ const config = {
 		Autoprefixer,
 	],
 	devServer: {
-		contentBase: path.join(__dirname, "dist"),
+		contentBase: path.join(__dirname, "docs"),
 		compress: true,
 		port: 3000,
 	},
