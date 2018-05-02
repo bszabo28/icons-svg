@@ -7,16 +7,16 @@
           box-sizing: border-box; }
 html {
   font-size: 62.5%; }
-body {
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-family: "Roboto Condensed", sans-serif; }
 ul, li {
   list-style-type: none;
   list-style: none; }
 [class*="icon-"] svg {
   height: 24px;
   height: 2.4rem; }
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif; }
 @-webkit-keyframes bounce-1 {
   0% {
     -webkit-transform: scale(1, 1) translateY(0);
@@ -237,11 +237,42 @@ ul, li {
   100% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0); } }
+.github {
+  text-align: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  padding: 40px 0;
+  padding: 4rem 0; }
+.github__link:visited, .github__link:link {
+    color: black;
+    font-size: 30px;
+    font-size: 3rem;
+    text-decoration: none; }
+.github svg {
+    height: 80px;
+    height: 8rem;
+    fill: black;
+    -webkit-transition: all .5s;
+    transition: all .5s; }
+.github:hover {
+    background-color: black;
+    color: white; }
+.github:hover svg {
+      fill: white; }
+.github:hover a {
+      color: white; }
+.github span {
+    margin-right: 20px;
+    margin-right: 2rem; }
 .icons {
+  text-align: center;
   cursor: pointer; }
 .icons:not(:last-child) {
-    margin-bottom: 30px;
-    margin-bottom: 3rem; }
+    margin-bottom: 40px;
+    margin-bottom: 4rem; }
+.icons__heading--1 {
+    margin-bottom: 20px;
+    margin-bottom: 2rem; }
 .icons__icon {
     display: inline-block;
     -webkit-transition: all .2s;
@@ -255,10 +286,8 @@ ul, li {
               animation-iteration-count: 1;
       -webkit-animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
               animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1); }
-.icons:nth-child(1) span:first-child::before {
+.icons:nth-child(1) .icons__heading--1::before {
     content: "24px";
-    margin-right: 20px;
-    margin-right: 2rem;
     font-size: 24px;
     font-size: 2.4rem; }
 .icons:nth-child(1) .icons__icon {
@@ -270,16 +299,15 @@ ul, li {
       margin-right: 2rem; }
 .icons:nth-child(1) .icons__icon svg {
       height: 24px;
-      height: 2.4rem; }
-.icons:nth-child(1) .icons__icon:hover {
+      height: 2.4rem;
+      fill: black; }
+.icons:nth-child(1) .icons__icon:hover svg {
       fill: #b13030; }
 .icons:nth-child(1) .icons__icon.animated {
     -webkit-animation-name: bounce-1;
             animation-name: bounce-1; }
-.icons:nth-child(2) span:first-child::before {
+.icons:nth-child(2) .icons__heading--1::before {
     content: "48px";
-    margin-right: 20px;
-    margin-right: 2rem;
     font-size: 48px;
     font-size: 4.8rem; }
 .icons:nth-child(2) .icons__icon {
@@ -291,16 +319,15 @@ ul, li {
       margin-right: 2rem; }
 .icons:nth-child(2) .icons__icon svg {
       height: 48px;
-      height: 4.8rem; }
-.icons:nth-child(2) .icons__icon:hover {
+      height: 4.8rem;
+      fill: black; }
+.icons:nth-child(2) .icons__icon:hover svg {
       fill: #e41f4c; }
 .icons:nth-child(2) .icons__icon.animated {
     -webkit-animation-name: bounce-2;
             animation-name: bounce-2; }
-.icons:nth-child(3) span:first-child::before {
+.icons:nth-child(3) .icons__heading--1::before {
     content: "72px";
-    margin-right: 20px;
-    margin-right: 2rem;
     font-size: 72px;
     font-size: 7.2rem; }
 .icons:nth-child(3) .icons__icon {
@@ -312,16 +339,15 @@ ul, li {
       margin-right: 2rem; }
 .icons:nth-child(3) .icons__icon svg {
       height: 72px;
-      height: 7.2rem; }
-.icons:nth-child(3) .icons__icon:hover {
+      height: 7.2rem;
+      fill: black; }
+.icons:nth-child(3) .icons__icon:hover svg {
       fill: #ffa071; }
 .icons:nth-child(3) .icons__icon.animated {
     -webkit-animation-name: bounce-3;
             animation-name: bounce-3; }
-.icons:nth-child(4) span:first-child::before {
+.icons:nth-child(4) .icons__heading--1::before {
     content: "96px";
-    margin-right: 20px;
-    margin-right: 2rem;
     font-size: 96px;
     font-size: 9.6rem; }
 .icons:nth-child(4) .icons__icon {
@@ -333,16 +359,15 @@ ul, li {
       margin-right: 2rem; }
 .icons:nth-child(4) .icons__icon svg {
       height: 96px;
-      height: 9.6rem; }
-.icons:nth-child(4) .icons__icon:hover {
+      height: 9.6rem;
+      fill: black; }
+.icons:nth-child(4) .icons__icon:hover svg {
       fill: #ffba00; }
 .icons:nth-child(4) .icons__icon.animated {
     -webkit-animation-name: bounce-4;
             animation-name: bounce-4; }
-.icons:nth-child(5) span:first-child::before {
+.icons:nth-child(5) .icons__heading--1::before {
     content: "120px";
-    margin-right: 20px;
-    margin-right: 2rem;
     font-size: 120px;
     font-size: 12rem; }
 .icons:nth-child(5) .icons__icon {
@@ -354,8 +379,9 @@ ul, li {
       margin-right: 2rem; }
 .icons:nth-child(5) .icons__icon svg {
       height: 120px;
-      height: 12rem; }
-.icons:nth-child(5) .icons__icon:hover {
+      height: 12rem;
+      fill: black; }
+.icons:nth-child(5) .icons__icon:hover svg {
       fill: #ff9e9e; }
 .icons:nth-child(5) .icons__icon.animated {
     -webkit-animation-name: bounce-5;
