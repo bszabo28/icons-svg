@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.github {
+	padding: 4rem;
+	transition: all .5s;
+
+	&:visited, &:link {
+		color: black;
+		font-size: 3rem;
+		text-decoration: none;
+	}
+
+	svg {
+		height: 8rem;
+		fill: black;
+		transition: all .5s;
+	}
+
+	&:hover {
+		background-color: black;
+		color: white;
+		svg {
+			fill: white;
+		}
+	}
+
+	span {
+		margin-right: 2rem;
+	}
+}
