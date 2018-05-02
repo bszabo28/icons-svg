@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.icons {
+	cursor: pointer;
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+
+	&__icon {
+		display: inline-block;
+		transition: all .2s;
+		border-radius: 50%;
+		vertical-align: middle;
+
+		&.animated {
+			animation-duration: 2s;
+			animation-iteration-count: 1;
+			animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+		}
+	}
+
+	@for $i from 1 through 5 {
+
+		$size: $i*2.4;
+
+		&:nth-child(#{$i}) {
+
+			span {
+				&:first-child::before {
+					content: '#{$size*10}px';
+					margin-right: 2rem;
+					font-size: $size * 1rem;
+				}
+			}
+
+			.icons__icon {
+				vertical-align: middle;
+				font-size: $size * 1rem;
+
+				&:not(:last-child) {
+					margin-right: 2rem;
+				}
+
+				svg {
+					height: #{$size}rem;
+				}
+
+				&:hover {
+					fill: nth($colors, $i);
+				}
+			}
+
+			.icons__icon.animated {
+				animation-name: bounce-#{$i};
+			}
+		}
+	}
+}

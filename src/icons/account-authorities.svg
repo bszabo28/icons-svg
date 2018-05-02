@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 24 24"
+   xml:space="preserve"
+   width="24"
+   height="24"><metadata
+     id="metadata5304"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs5302" /><style
+     type="text/css"
+     id="style5284">
+	.st0{display:none;}
+</style><path
+     class="st0"
+     d="m -211.5,-42.5 c 2.2,0 4,1.8 4,4 0,2.2 -1.8,4 -4,4 -2.2,0 -4,-1.8 -4,-4 0,-2.2 1.8,-4 4,-4 m 0,10 c 4.4,0 8,1.8 8,4 l 0,2 -16,0 0,-2 c 0,-2.2 3.5,-4 8,-4 z"
+     id="path5286"
+     style="display:none" /><path
+     class="st0"
+     d="m -254.7,1.7 c -2.2,0 -4,1.8 -4,4 0,2.2 1.8,4 4,4 2.2,0 4,-1.8 4,-4 0,-2.2 -1.8,-4 -4,-4 m 0,10 c -2.7,0 -8,1.3 -8,4 l 0,2 11.1,0 c -0.1,-0.3 -0.1,-0.7 -0.1,-1 0,-1.5 0.5,-3 1.4,-4.2 -1.5,-0.6 -3.2,-0.8 -4.4,-0.8"
+     id="path5288"
+     style="display:none" /><g
+     id="g5290"
+     transform="matrix(0.86206897,0,0,0.8910891,1.137931,-0.20792058)"><g
+       id="g5292"><circle
+         cx="9"
+         cy="7.5999999"
+         r="4"
+         id="circle5294" /><path
+         d="m 13.2,18.4 c 0,-0.1 0,-0.2 0,-0.3 0,-1.3 0.6,-2.5 1.6,-3.3 C 13.3,14 11.3,13.6 9,13.6 c -4.4,0 -8,1.8 -8,4 l 0,2 12.2,0 c 0,0 0,-1.2 0,-1.2 z"
+         id="path5296" /></g><path
+       d="m 18.8,15.2 1.8,0 c 0.5,0 0.9,0.4 0.9,0.9 l 0,0.9 1.8,0 c 0.5,0 0.9,0.4 0.9,0.9 l 0,5 c 0,0.5 -0.4,0.9 -0.9,0.9 l -7.2,0 c -0.5,0 -0.9,-0.4 -0.9,-0.9 l 0,-5 c 0,-0.5 0.4,-0.9 0.9,-0.9 l 1.8,0 0,-0.9 c 0,-0.5 0.4,-0.9 0.9,-0.9 m 1.8,1.8 0,-0.9 -1.8,0 0,0.9 1.8,0 z"
+       id="path5298" /></g></svg>
