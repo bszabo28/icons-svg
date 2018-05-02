@@ -10,6 +10,7 @@ import AccountViewer from 'icons/account-viewer.svg';
 import Exit from 'icons/exit.svg';
 import Help from 'icons/help.svg';
 import Logo from 'icons/logo.svg';
+import Github from 'icons/github.svg';
 
 export default {
 	'account': Account,
@@ -22,6 +23,7 @@ export default {
 	'account-switch': AccountSwitch,
 	'account-viewer': AccountViewer,
 	'exit': Exit,
-	'Help': Help,
-	'Logo': Logo,
+	'help': Help,
+	'logo': Logo,
+	'github': Github,
 };

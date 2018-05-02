@@ -43,10 +43,13 @@
 
 				svg {
 					height: #{$size}rem;
+					fill: black;
 				}
 
 				&:hover {
-					fill: nth($colors, $i);
+					svg {
+						fill: nth($colors, $i);
+					}
 				}
 			}
 
