@@ -1,6 +1,6 @@
 export default class Icon {
 
-	public iconElements:Array<Element>;
+	protected iconElements:Array<Element>;
 
 	public constructor(protected iconset) {
 

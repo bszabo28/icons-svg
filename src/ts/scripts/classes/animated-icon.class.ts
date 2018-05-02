@@ -1,10 +1,12 @@
 import Icon from './icon.class';
+import IAnimatable from '../interfaces/Animatable.interface';
 import Animatable from '../mixins/animatable.class';
 import applyMixins from '../mixins/applyMixins.func';
 
-export default class AnimatedIcon extends Icon implements Animatable {
+export default class AnimatedIcon extends Icon implements IAnimatable {
 
-	public iconElements:Array<Element>;
+	protected animateEndEvents:string[] = ['webkitAnimationEnd', 'mozAnimationEnd', 'animationend',];
+	protected iconElements:Array<Element>;
 	public startAnimate: () => void;
 	public stopAnimate: () => void;
 
