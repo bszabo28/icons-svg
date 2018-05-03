@@ -2,13 +2,14 @@ const path = require('path');
 const PreCss = require('precss');
 const Autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const extractSCSS = new ExtractTextPlugin('styles/style.[hash].css', {allChunks: true});
 
 const config = {
 	entry: ['babel-polyfill', './src/ts/scripts/script.ts'],
 	output: {
-		filename: 'js/app.js',
+		filename: 'js/app-[hash].js',
 		path: path.resolve(__dirname, 'docs'),
 	},
 	resolve: {
@@ -55,12 +56,13 @@ const config = {
 			template: './src/index.html',
 			filename: 'index.html',
 			assets: {
-				style: "style.[hash].css",
+				style: "style-[hash].css",
 			},
 		}),
 		extractSCSS,
 		PreCss,
 		Autoprefixer,
+		new CleanWebpackPlugin(['docs']),
 	],
 	devServer: {
 		contentBase: path.join(__dirname, "docs"),
