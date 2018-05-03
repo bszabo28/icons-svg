@@ -13,6 +13,11 @@ ul, li {
 [class*="icon-"] svg {
   height: 24px;
   height: 2.4rem; }
+header, main, footer {
+  display: block;
+  max-width: 1440px;
+  max-width: 144rem;
+  margin: 0 auto; }
 body {
   font-size: 16px;
   font-size: 1.6rem;
@@ -237,6 +242,23 @@ body {
   100% {
     -webkit-transform: scale(1, 1) translateY(0);
             transform: scale(1, 1) translateY(0); } }
+.description {
+  text-align: center;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  padding: 20px;
+  padding: 2rem;
+  color: #155724;
+  background-color: #d4edda;
+  border-bottom: 1px solid #c3e6cb;
+  -webkit-box-shadow: 0 0px 10px lightgray;
+          box-shadow: 0 0px 10px lightgray; }
+.description a:link, .description a:visited {
+    color: black; }
 .github {
   text-align: center;
   -webkit-transition: all .5s;

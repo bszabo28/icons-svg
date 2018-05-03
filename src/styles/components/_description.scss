@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.description {
+	text-align: center;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	margin-bottom: 2rem;
+	padding: 2rem;
+	color: #155724;
+	background-color: #d4edda;
+	border-bottom: 1px solid #c3e6cb;
+	box-shadow: 0 0px 10px lightgray;
+
+	a {
+		&:link, &:visited {
+			color: black;
+		}
+	}
+}
