@@ -25,11 +25,9 @@ export default class Animatable implements IAnimatable {
 			.from(this.iconElements)
 			.forEach(
 				(iconTag:Element) => {
-
 					this.animateEndEvents.forEach((event:string) => {
 						iconTag.addEventListener(event, this.animateEndHandler);
 					});
-
 					iconTag.addEventListener('mouseover', this.mouseOverHandler);
 				}
 			);
